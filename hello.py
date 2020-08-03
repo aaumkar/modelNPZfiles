@@ -1,3 +1,3 @@
-from datahandler import walk_for_csv as wfc
+from reading import read_files as rd
 
-print(len(wfc.get_labelled(0)))
+rd.get_label_files(0)
