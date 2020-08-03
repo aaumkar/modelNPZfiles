@@ -54,4 +54,7 @@ def get_label_files(param):
 
     pbar.close()
     print("Got " + str(len(files)) + " Files for Label '"+ str(param) +"'\n")
-    
+
+    return x
+
+# def 
