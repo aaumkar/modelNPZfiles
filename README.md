@@ -1,25 +1,7 @@
-# BE Final Year Project
+# NPZ Files
 
-
-
-<b>Summary:</b><br>
-This repo shall contain `py` files to run the complete Program, function wise
-
-## Read Files
-`reading/read_files.py`
-
-### Libraries used
-|Name <br> Alphabetical | Usage | Dependance |
-|-----------------------|-------|------------|
-|numpy| export to `.npz`<br>| ###|
-|pandas| Read and manage DataFrames<br> export to numpy| ###|
-|os| get file names|###|
-|tqdm| display progress on CLI | #|
-<br>
-
-| Function Name | Input | Ouput | Summary|
-|---------------|-------|-------|----------------|--------|
-| `get_labelled()`| `0 or 1`| `[filesnames]`| Read Files and return Files names labelled|
-|`get_all()`|void| `[filenames]`| Get names of all 512 files|
-|`get_path_labelled()`|`0 or 1`| path to labelled files | Get Path to labelled file names
-
+|Sr No. | File Name      | Contents     | Desc.                         | Source File|
+|-------|----------------|--------------|-------------------------------|------------|
+|1      |`reg_params.npz`| `mu`, `sigma`| Regularisation Parameters     |`supervising.ipynb`|
+|2      |`processed_data.npz`| `x`, `y`| Regularized Features and Labels     |`supervising.ipynb`|
+|3      |`chrono_pred.npz`| `x`| Chronological Data Regularized    |`evaluate.ipynb`|
